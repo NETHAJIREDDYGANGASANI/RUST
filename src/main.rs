@@ -105,7 +105,7 @@ fn handle_client(mut stream: TcpStream) {
                 .unwrap();
         }
         Err(e) => {
-            println!("Error samresh: {}", e);
+            println!("Error : {}", e);
         }
     }
 }
