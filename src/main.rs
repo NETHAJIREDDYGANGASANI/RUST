@@ -48,7 +48,7 @@ struct PrescriptionDetail {
 }
 
 //DATABASE_URL
-const DB_URL: &str = "postgres://postgres:postgres@localhost:5432/Kb-rust";
+const DB_URL: &str = "postgres://postgres:postgres@localhost:5080/Rust";
 
 //constants
 const OK_RESPONSE: &str = "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n";
